@@ -1,17 +1,15 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Sacramento&size=65&duration=3000&pause=1000&color=6090FF&center=true&vCenter=true&width=600&height=90&lines=Feliz+Aniversário+❤️" alt="Feliz Aniversário" />
+# 🌙 Feliz Aniversário ❤️
+
+### *Uma carta de amor interativa, construída com HTML, CSS e muito carinho*
 
 <br/>
 
-> *Uma carta de amor interativa, construída com HTML, CSS e muito carinho.*
-
-<br/>
-
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-264DE4?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Love](https://img.shields.io/badge/Feito_com-❤️_Amor-ff6b9d?style=for-the-badge)](https://github.com)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-264DE4?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Feito com Amor](https://img.shields.io/badge/Feito%20com-%E2%9D%A4%EF%B8%8F%20Amor-ff6b9d?style=for-the-badge)
 
 </div>
 
@@ -23,28 +21,44 @@ Uma página de aniversário **interativa e animada**, criada com amor para celeb
 
 ---
 
-## 🌌 Preview
+## 🌌 Demonstração
 
-<div align="center">
-
-| Efeito de estrelas | Carta animada | Player de música |
-|:---:|:---:|:---:|
-| ✦ Sparkles pulsantes | 💌 Texto com fade-in | 🎵 Autoplay suave |
-
-</div>
+```
+┌─────────────────────────────────────────────┐
+│                                             │
+│           para o meu amor                  │
+│        Feliz Aniversário                    │
+│             ❤️  ❤️  ❤️                       │
+│                                             │
+│  ┌─────────────────────────────────────┐   │
+│  │  Era uma vez…                       │   │
+│  │                                     │   │
+│  │  Era uma vez, em um mundo onde o    │   │
+│  │  tempo guardava memórias como       │   │
+│  │  tesouros raros...                  │   │
+│  │                                     │   │
+│  │       feliz aniversário, meu amor   │   │
+│  └─────────────────────────────────────┘   │
+│                                             │
+│           ♪ nossa música ♪                 │
+│   ╭───────────────────────────────────╮    │
+│   │  ▶  ━━━━━●──────────────  0:42   │    │
+│   ╰───────────────────────────────────╯    │
+└─────────────────────────────────────────────┘
+```
 
 ---
 
 ## 🎴 Features
 
-- 🌠 **Fundo dinâmico** — imagem com overlay em gradiente profundo
+- 🌠 **Fundo dinâmico** — imagem com overlay em gradiente profundo azul-noturno
 - ✦ **70 estrelas animadas** geradas via JavaScript com timings aleatórios
 - 🌸 **22 pétalas flutuantes** em azul lilás caindo continuamente pela tela
-- 💌 **Carta personalizada** com tipografia refinada e bordas decorativas
-- ❤️ **Corações pulsantes** com animação `hbeat` sincronizada
+- 💌 **Carta personalizada** com tipografia refinada e bordas decorativas nos cantos
+- ❤️ **Corações pulsantes** com animação sincronizada em cascata
 - 🎵 **Player de música** com autoplay e fallback para interação do usuário
-- 📱 **100% responsivo** — funciona em mobile, tablet e desktop
-- 🌙 **Tema noturno** profundo com `backdrop-filter` e glassmorphism
+- 📱 **100% responsivo** — mobile, tablet e desktop
+- 🌙 **Glassmorphism** — card com `backdrop-filter` e bordas translúcidas
 
 ---
 
@@ -73,44 +87,42 @@ background.png  →  sua imagem de fundo
 music.m4a       →  sua música favorita
 ```
 
-**3. Personalize o texto** em `index.html` — procure pelas tags `<p>` dentro de `.card`
+**3. Personalize o texto** em `index.html` — edite as tags `<p>` dentro de `.card`
 
 **4. Abra no navegador**
 ```bash
-# Abra diretamente ou use um servidor local:
+# Servidor local simples:
 npx serve .
+# ou
+python -m http.server 8080
 ```
 
 ---
 
 ## 🎨 Paleta de Cores
 
-<div align="center">
-
-| Cor | Hex | Uso |
-|:---:|:---:|:---|
-| ![#020d1a](https://placehold.co/20x20/020d1a/020d1a) | `#020d1a` | Fundo principal |
-| ![#6090ff](https://placehold.co/20x20/6090ff/6090ff) | `#6090ff` | Gradiente do título |
-| ![#aad0ff](https://placehold.co/20x20/aad0ff/aad0ff) | `#aad0ff` | Saudação e assinatura |
-| ![#c8e0ff](https://placehold.co/20x20/c8e0ff/c8e0ff) | `#c8e0ff` | Subtítulo |
-| ![#f0eaff](https://placehold.co/20x20/f0eaff/f0eaff) | `#f0eaff` | Texto da carta |
-
-</div>
+```
+#020d1a  ████  Fundo principal (azul-noite profundo)
+#6090ff  ████  Gradiente do título
+#aad0ff  ████  Saudação e assinatura
+#c8e0ff  ████  Subtítulo
+#f0eaff  ████  Texto da carta
+```
 
 ---
 
 ## 🔤 Tipografia
 
-| Fonte | Uso |
-|:---|:---|
-| [Sacramento](https://fonts.google.com/specimen/Sacramento) | Títulos, saudação, assinatura |
-| [Cormorant Garamond](https://fonts.google.com/specimen/Cormorant+Garamond) | Corpo do texto |
+| Fonte | Estilo | Uso |
+|:---|:---:|:---|
+| [Sacramento](https://fonts.google.com/specimen/Sacramento) | *cursiva* | Títulos, saudação, assinatura |
+| [Cormorant Garamond](https://fonts.google.com/specimen/Cormorant+Garamond) | serifada | Corpo do texto |
 
 ---
 
 ## 💡 Customização
 
-Quer adaptar para alguém especial na sua vida? Aqui estão os pontos de edição:
+Quer adaptar para alguém especial? Edite estes trechos em `index.html`:
 
 ```html
 <!-- Destinatário -->
@@ -122,15 +134,32 @@ Quer adaptar para alguém especial na sua vida? Aqui estão os pontos de ediçã
 <!-- Abertura da carta -->
 <span class="salutation">Era uma vez…</span>
 
+<!-- Parágrafos da carta -->
+<p>Seu texto aqui...</p>
+
 <!-- Assinatura -->
 <span class="sign-off">feliz aniversário, meu amor ❤️</span>
 ```
+
+Para trocar as cores, edite os valores de `background` e `color` nas classes principais dentro do `<style>`.
+
+---
+
+## 🛠️ Tecnologias
+
+| Tecnologia | Uso |
+|:---|:---|
+| HTML5 semântico | Estrutura da página |
+| CSS3 (animations, backdrop-filter, gradients) | Todos os efeitos visuais |
+| JavaScript vanilla | Geração de estrelas, pétalas e autoplay |
+| Google Fonts | Sacramento + Cormorant Garamond |
+| Audio API nativa | Player de música com fallback |
 
 ---
 
 ## 📜 Licença
 
-Distribuído com ❤️ — use, modifique e compartilhe o amor.
+Distribuído com ❤️ — use, modifique e espalhe amor.
 
 ---
 
@@ -139,11 +168,13 @@ Distribuído com ❤️ — use, modifique e compartilhe o amor.
 <br/>
 
 *"...ele sabia que não podia oferecer castelos ou riquezas,*
+<br/>
 *mas oferecia algo que nenhum conto de fadas dispensa —*
+<br/>
 *um amor verdadeiro."*
 
 <br/>
 
-**❤️ &nbsp; ❤️ &nbsp; ❤️**
+**❤️ &nbsp;&nbsp; ❤️ &nbsp;&nbsp; ❤️**
 
 </div>
